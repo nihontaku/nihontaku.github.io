@@ -11,9 +11,9 @@ jQuery(document).ready(function () {
 
 
 // localScroll js
-    jQuery(".navbar-desktop").localScroll();
+//    jQuery(".navbar-desktop").localScroll();
 
-// Counter 
+// Counter
     jQuery('.statistic-counter').counterUp({
         delay: 10,
         time: 2000
@@ -52,7 +52,7 @@ jQuery(document).ready(function () {
             this.nextElementSibling.classList.toggle("show");
         }
     }
-    
+
 // nav menu small menu
     jQuery(document).on("scroll", function () {
         if ($(document).scrollTop() > 120) {
@@ -64,11 +64,3 @@ jQuery(document).ready(function () {
 
 
 });
-
-
-
-
-
-
-
-
