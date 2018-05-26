@@ -38,8 +38,8 @@ h4 {
     line-height: 2rem;
     font-weight: 700;
 }
-/*.navbar-brand {
-  margin-top: 1.5rem;*/
+.navbar-brand {
+  margin-top: 1.0rem;
 }
 .bg-primary {
     color: #3f444a!important;
