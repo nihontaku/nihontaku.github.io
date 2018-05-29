@@ -656,3 +656,39 @@ div.panel.show {
 .main_coppyright .socail_coppyright a:hover i {
     color: #ec4848;
 }
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  65%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+		20%{color: red;}
+	40%{color: yellow;}
+	65%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  20%{color: red;}
+40%{color: yellow;}
+65%{color: green;}
+80%{color: blue;}
+100%{color: orange;}
+}
