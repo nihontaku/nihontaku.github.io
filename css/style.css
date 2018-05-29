@@ -615,13 +615,12 @@ div.panel.show {
     color:#fff;
 }
 .main_footer_area .single_f_widget .single_f_widget_text.f_reatures li{
-    font-size:15px;
+    font-size:14px;
     margin-bottom: 10px;
     color:#cccccc;
 }
 .main_footer_area .single_f_widget .single_f_widget_text.f_reatures i{
     color:#ec4848;
-    padding-right: 5px;
 }
 
 .main_footer_area .single_f_widget .single_f_widget_text.f_tags a{
