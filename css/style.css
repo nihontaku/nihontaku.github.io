@@ -4,6 +4,15 @@ Authore Name : Bootstrapthemes
 Authore link : http://bootstrapthemes.co
 
 */
+@font-face{
+
+font-family: 'Joes';
+
+src: url('../font/Joes.ttf');
+
+font-weight: normal;
+font-style: normal;
+}
 html,
 body{
     font-size:18px;
@@ -161,7 +170,7 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
 .single_home h1{
     font-weight: 800;
     letter-spacing: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Joes';
     background-color: rgba(0, 0, 0, 0.4);
     background-size: 100%;
 }
